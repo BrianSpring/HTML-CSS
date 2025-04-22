@@ -1,175 +1,201 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="../css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-
-    <title>Nuestros mayoristas</title>
-  </head>
-  <body>
-    <header class="merriweather-regular-italic">
-      <!--Header con NavBar-->
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <!--NavBar-->
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img
-              src="../Resources/wLogo.png"
-              alt="Logo"
-              width="54"
-              class="logo"
-              class="d-inline-block align-text-top"
-            />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  aria-current="page"
-                  href="../index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="marcasdisponibles.html"
-                  >Marcas disponibles</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="nuestrosmayoristas.html"
-                  >Nuestros Mayoristas</a
-                >
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Ayuda
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="contactanos.html"
-                      >Contactanos</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="sobrenosotros.html"
-                      >Sobre nosotros</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="nuestrasredes.html"
-                      >Nuestras redes</a
-                    >
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MyNewShop - Nuestros Mayoristas">
+    <link rel="stylesheet" href="../styles.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>MyNewShop - Nuestros Mayoristas</title>
+</head>
+<body>
+    <header class="header" role="banner">
+        <a href="../index.html" class="header__logo">
+            <img src="../resources/Logo.png" alt="Logo MyNewShop">
+        </a>
     </header>
-    <main class="pcontent merriweather-regular-italic">
-      <section class="container1">
-        <div class="cards-container">
-            <div class="card">
-                <img src="../Resources/M1.jpg" class="card-img-top" alt="KittenFoto" />
-                <div class="card-body">
-                    <h5 class="card-title">Mayorista N*1</h5>
-                    <p class="card-text">Top 1 en Productos agricolas.</p>
+
+    <main class="main-content" role="main">
+        <section class="section" aria-label="Nuestros mayoristas">
+            <h1 class="section__title">Nuestros Mayoristas</h1>
+            <p class="section__text">Descubre nuestra red de mayoristas confiables y de calidad.</p>
+        </section>
+    </main>
+
+    <div class="all-wholesalers">
+        <div class="wholesalers-grid">
+            <div class="wholesaler-card">
+                <img src="../resources/M1.jpg" alt="Bebidas Mayorista" class="wholesaler-logo">
+                <div class="wholesaler-info">
+                    <h3 class="wholesaler-name">Bebidas Mayorista</h3>
+                    <div class="wholesaler-details">
+                        <div class="wholesaler-distance">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>1.2 km de distancia</span>
+                        </div>
+                        <div class="wholesaler-schedule">
+                            <i class="fas fa-clock"></i>
+                            <span>Lun-Vie: 8:00 - 18:00</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <img src="../Resources/M2.jpg" class="card-img-top" alt="KittenFoto" />
-                <div class="card-body">
-                    <h5 class="card-title">Mayorista N*2</h5>
-                    <p class="card-text">Top 1 en Repuestos Automotor.</p>
+
+            <div class="wholesaler-card">
+                <img src="../resources/M2.jpg" alt="Piezas Express" class="wholesaler-logo">
+                <div class="wholesaler-info">
+                    <h3 class="wholesaler-name">Piezas Express</h3>
+                    <div class="wholesaler-details">
+                        <div class="wholesaler-distance">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>2.5 km de distancia</span>
+                        </div>
+                        <div class="wholesaler-schedule">
+                            <i class="fas fa-clock"></i>
+                            <span>Lun-Sab: 9:00 - 19:00</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <img src="../Resources/M3.jpg" class="card-img-top" alt="KittenFoto" />
-                <div class="card-body">
-                    <h5 class="card-title">Mayorista N*3</h5>
-                    <p class="card-text">Top 1 en Bebidas alcoholicas.</p>
+
+            <div class="wholesaler-card">
+                <img src="../resources/M3.jpg" alt="Limpieza Pro" class="wholesaler-logo">
+                <div class="wholesaler-info">
+                    <h3 class="wholesaler-name">Limpieza Pro</h3>
+                    <div class="wholesaler-details">
+                        <div class="wholesaler-distance">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>3.1 km de distancia</span>
+                        </div>
+                        <div class="wholesaler-schedule">
+                            <i class="fas fa-clock"></i>
+                            <span>Lun-Vie: 7:30 - 17:30</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <img src="../Resources/M4.jpeg" class="card-img-top" alt="KittenFoto" />
-                <div class="card-body">
-                    <h5 class="card-title">Mayorista N*4</h5>
-                    <p class="card-text">Top 1 en Bebidas.</p>
+
+            <div class="wholesaler-card">
+                <img src="../resources/M4.jpeg" alt="Golosinas Premium" class="wholesaler-logo">
+                <div class="wholesaler-info">
+                    <h3 class="wholesaler-name">Golosinas Premium</h3>
+                    <div class="wholesaler-details">
+                        <div class="wholesaler-distance">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>1.8 km de distancia</span>
+                        </div>
+                        <div class="wholesaler-schedule">
+                            <i class="fas fa-clock"></i>
+                            <span>Lun-Vie: 8:30 - 18:30</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <img src="../Resources/M5.jpg" class="card-img-top" alt="KittenFoto" />
-                <div class="card-body">
-                    <h5 class="card-title">Mayorista N*5</h5>
-                    <p class="card-text">Top 1 en Productos de limpieza.</p>
+
+            <div class="wholesaler-card">
+                <img src="../resources/M5.jpg" alt="Bebidas Plus" class="wholesaler-logo">
+                <div class="wholesaler-info">
+                    <h3 class="wholesaler-name">Bebidas Plus</h3>
+                    <div class="wholesaler-details">
+                        <div class="wholesaler-distance">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>2.2 km de distancia</span>
+                        </div>
+                        <div class="wholesaler-schedule">
+                            <i class="fas fa-clock"></i>
+                            <span>Lun-Sab: 8:00 - 20:00</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <img src="../Resources/M6.jpeg" class="card-img-top" alt="KittenFoto" />
-                <div class="card-body">
-                    <h5 class="card-title">Mayorista N*6</h5>
-                    <p class="card-text">Top 2 en Bebidas.</p>
+
+            <div class="wholesaler-card">
+                <img src="../resources/M6.jpeg" alt="Lácteos Elite" class="wholesaler-logo">
+                <div class="wholesaler-info">
+                    <h3 class="wholesaler-name">Lácteos Elite</h3>
+                    <div class="wholesaler-details">
+                        <div class="wholesaler-distance">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>3.5 km de distancia</span>
+                        </div>
+                        <div class="wholesaler-schedule">
+                            <i class="fas fa-clock"></i>
+                            <span>Lun-Vie: 9:00 - 17:00</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <img src="../Resources/M7.jpeg" class="card-img-top" alt="KittenFoto" />
-                <div class="card-body">
-                    <h5 class="card-title">Mayorista N*7</h5>
-                    <p class="card-text">Top 1 en Vestimenta.</p>
+
+            <div class="wholesaler-card">
+                <img src="../resources/M7.jpeg" alt="Textiles Pro" class="wholesaler-logo">
+                <div class="wholesaler-info">
+                    <h3 class="wholesaler-name">Textiles Pro</h3>
+                    <div class="wholesaler-details">
+                        <div class="wholesaler-distance">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>1.5 km de distancia</span>
+                        </div>
+                        <div class="wholesaler-schedule">
+                            <i class="fas fa-clock"></i>
+                            <span>Lun-Sab: 8:00 - 19:00</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <img src="../Resources/M8.jpg" class="card-img-top" alt="KittenFoto" />
-                <div class="card-body">
-                    <h5 class="card-title">Mayorista N*8</h5>
-                    <p class="card-text">Top 1 en Snacks y Cereales.</p>
+
+            <div class="wholesaler-card">
+                <img src="../resources/M8.jpg" alt="Congelados Max" class="wholesaler-logo">
+                <div class="wholesaler-info">
+                    <h3 class="wholesaler-name">Congelados Max</h3>
+                    <div class="wholesaler-details">
+                        <div class="wholesaler-distance">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>2.8 km de distancia</span>
+                        </div>
+                        <div class="wholesaler-schedule">
+                            <i class="fas fa-clock"></i>
+                            <span>Lun-Vie: 7:00 - 17:00</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
-    </main>
-    <footer>
-      <!--Footer-->
-      <hr />
-      <p class="merriweather-light-italic text-center">Todos los derechos reservados</p>
-    </footer>
-  </body>
-</html>
+    </div>
 
+    <footer class="footer" role="contentinfo">
+        <div class="footer__content">
+            <div class="footer__info">
+                <h3>Contacto</h3>
+                <p><i class="fas fa-envelope" aria-hidden="true"></i> info@mynewshop.com</p>
+                <p><i class="fas fa-phone" aria-hidden="true"></i> +123 456 7890</p>
+            </div>
+            <div class="footer__social">
+                <h3>Síguenos</h3>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/brian_spring03?igsh=MWExeTl2cjFrZGwwZw==" class="social-link" aria-label="Instagram">
+                        <img src="../resources/Ig.gif" alt="Instagram" class="social-icon" width="30" height="30">
+                    </a>
+                    <a href="https://www.instagram.com/brian_spring03?igsh=MWExeTl2cjFrZGwwZw==" class="social-link" aria-label="Facebook">
+                        <img src="../resources/Face.gif" alt="Facebook" class="social-icon" width="30" height="30">
+                    </a>
+                    <a href="https://www.instagram.com/brian_spring03?igsh=MWExeTl2cjFrZGwwZw==" class="social-link" aria-label="LinkedIn">
+                        <img src="../resources/Linke.gif" alt="LinkedIn" class="social-icon" width="30" height="30">
+                    </a>
+                </div>
+            </div>
+            <nav class="footer__links" aria-label="Navegación principal">
+                <h3>Navegación</h3>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="marcasdisponibles.html">Marcas disponibles</a></li>
+                    <li><a href="nuestrosmayoristas.html">Nuestros mayoristas</a></li>
+                    <li><a href="sobrenosotros.html">Sobre nosotros</a></li>
+                </ul>
+            </nav>
+            <div class="footer__text">
+                <p>© 2024 MyNewShop - Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

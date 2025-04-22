@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MyNewShop - Nuestros Productos">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>MyNewShop - Productos</title>
+</head>
+<body class="products-page">
+    <header class="header" role="banner">
+        <a href="../index.html" class="header__logo">
+            <img src="../resources/Logo.png" alt="Logo MyNewShop" width="45" height="45">
+        </a>
+    </header>
+
+    <main class="main-content" role="main">
+        <section class="section" aria-label="Nuestros Productos">
+            <h1 class="section__title">Nuestros Productos</h1>
+            <div class="section__content">
+                <p class="section__text">Descubre nuestra amplia selección de productos de las mejores marcas.</p>
+                
+                <section class="products-carousel" aria-label="Ofertas recomendadas">
+                    <h2 class="carousel__title">Ofertas Recomendadas</h2>
+                    <div class="carousel__container">
+                        <input type="radio" name="carousel" id="slide1" class="carousel__radio" checked>
+                        <input type="radio" name="carousel" id="slide2" class="carousel__radio">
+                        <input type="radio" name="carousel" id="slide3" class="carousel__radio">
+                        
+                        <div class="carousel__track">
+                            <div class="carousel__slide">
+                                <img src="../resources/Cerveza.jpg" alt="Pack de Cervezas" class="carousel__image">
+                                <h3 class="carousel__product-title">Pack de 120 Cervezas</h3>
+                                <p class="carousel__product-price">$12,999</p>
+                                <p class="carousel__product-distributor">Distribuidor: Premium Beer</p>
+                            </div>
+                            <div class="carousel__slide">
+                                <img src="../resources/Gaseosa.jpeg" alt="Pack de Gaseosas" class="carousel__image">
+                                <h3 class="carousel__product-title">Pack de 24 Gaseosas</h3>
+                                <p class="carousel__product-price">$4,999</p>
+                                <p class="carousel__product-distributor">Distribuidor: RefrescoCo</p>
+                            </div>
+                            <div class="carousel__slide">
+                                <img src="../resources/Snack.jpeg" alt="Pack de Snacks" class="carousel__image">
+                                <h3 class="carousel__product-title">Pack de Snacks</h3>
+                                <p class="carousel__product-price">$3,999</p>
+                                <p class="carousel__product-distributor">Distribuidor: SnackMaster</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel__nav">
+                            <label for="slide1" class="carousel__nav-dot"></label>
+                            <label for="slide2" class="carousel__nav-dot"></label>
+                            <label for="slide3" class="carousel__nav-dot"></label>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="all-products" aria-label="Todos los productos">
+                    <h2 class="section__title">Todos los Productos</h2>
+                    <div class="cards-container">
+                        <article class="product-card">
+                            <img src="../resources/Cerveza.jpg" alt="Pack de Cervezas" class="product-card__image">
+                            <div class="product-card__content">
+                                <h3 class="product-card__name">Pack de 120 Cervezas</h3>
+                                <p class="product-card__brand">Marca: Premium Beer</p>
+                                <p class="product-card__price">$12,999</p>
+                            </div>
+                        </article>
+
+                        <article class="product-card">
+                            <img src="../resources/Gaseosa.jpeg" alt="Pack de Gaseosas" class="product-card__image">
+                            <div class="product-card__content">
+                                <h3 class="product-card__name">Pack de 24 Gaseosas</h3>
+                                <p class="product-card__brand">Marca: RefrescoCo</p>
+                                <p class="product-card__price">$4,999</p>
+                            </div>
+                        </article>
+
+                        <article class="product-card">
+                        <img src="../resources/Snack.jpeg" alt="Pack de Snacks" class="product-card__image">
+                            <div class="product-card__content">
+                                <h3 class="product-card__name">Pack de Snacks</h3>
+                                <p class="product-card__brand">Marca: SnackMaster</p>
+                                <p class="product-card__price">$3,999</p>
+                            </div>
+                        </article>
+
+                        <!-- Productos adicionales -->
+                        <article class="product-card">
+                            <img src="../resources/Cerveza.jpg" alt="Pack de Cervezas Premium" class="product-card__image">
+                            <div class="product-card__content">
+                                <h3 class="product-card__name">Pack de 60 Cervezas Premium</h3>
+                                <p class="product-card__brand">Marca: Premium Beer</p>
+                                <p class="product-card__price">$8,999</p>
+                            </div>
+                        </article>
+
+                        <article class="product-card">
+                            <img src="../resources/Gaseosa.jpeg" alt="Pack de Gaseosas Light" class="product-card__image">
+                            <div class="product-card__content">
+                                <h3 class="product-card__name">Pack de 12 Gaseosas Light</h3>
+                                <p class="product-card__brand">Marca: RefrescoCo</p>
+                                <p class="product-card__price">$2,999</p>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="footer__content">
+            <div class="footer__info">
+                <h3>Contacto</h3>
+                <p><i class="fas fa-envelope" aria-hidden="true"></i> info@mynewshop.com</p>
+                <p><i class="fas fa-phone" aria-hidden="true"></i> +123 456 7890</p>
+            </div>
+            <div class="footer__social">
+                <h3>Síguenos</h3>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/brian_spring03?igsh=MWExeTl2cjFrZGwwZw==" class="social-link" aria-label="Instagram">
+                        <img src="../resources/Ig.gif" alt="Instagram" class="social-icon" width="30" height="30">
+                    </a>
+                    <a href="https://www.instagram.com/brian_spring03?igsh=MWExeTl2cjFrZGwwZw==" class="social-link" aria-label="Facebook">
+                        <img src="../resources/Face.gif" alt="Facebook" class="social-icon" width="30" height="30">
+                    </a>
+                    <a href="https://www.instagram.com/brian_spring03?igsh=MWExeTl2cjFrZGwwZw==" class="social-link" aria-label="LinkedIn">
+                        <img src="../resources/Linke.gif" alt="LinkedIn" class="social-icon" width="30" height="30">
+                    </a>
+                </div>
+            </div>
+            <nav class="footer__links" aria-label="Navegación principal">
+                <h3>Navegación</h3>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="marcasdisponibles.html">Marcas disponibles</a></li>
+                    <li><a href="nuestrosmayoristas.html">Nuestros mayoristas</a></li>
+                    <li><a href="sobrenosotros.html">Sobre nosotros</a></li>
+                </ul>
+            </nav>
+            <div class="footer__text">
+                <p>© 2024 MyNewShop - Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
